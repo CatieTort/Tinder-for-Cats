@@ -1,0 +1,167 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+	margin: 25px;
+}
+
+#logo {
+	margin: 15px;
+	margin-left: 0;
+}
+
+#brand {
+	margin-top: 20px;
+}
+
+h1{
+   line-height: 75%;
+   font-style: bold;
+}
+
+h3 {
+  font-size: 15px;
+  font-style: italic;
+}
+
+ul {
+  padding: 1px;
+}
+
+p {
+  text-align: center;
+  color: #d7d7d7;
+}
+
+.formStyling{
+  border: 1px solid black;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.title-container {
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+}
+
+.newCat {
+  padding-bottom: 25px;
+
+}
+
+.formRow{
+	align-items: center;
+	width: 60%;
+}
+
+textarea.form-control {
+	resize: none;
+	border-radius: 4px;
+}
+
+textarea.form-control:focus,
+textarea.form-control:active {
+	outline: none;
+	background-color: #D6EAFF;
+}
+
+input.form-control {
+	border-radius: 4px;
+}
+
+input.form-control:focus,
+input.form-control:active {
+	outline: none;
+	background-color: #D6EAFF;
+}
+
+.nav-button1{
+  color: white;
+  background-color: #1e90ff;
+  list-style-type: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: black;
+  margin-right: 5px;
+}
+
+.nav-button2{
+  color: white;
+  background-color: #1e90ff;
+  list-style-type: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: black;
+}
+
+.submit-button {
+  color: white;
+  background-color: #1e90ff;
+  width: 100%;
+  padding: 5px 3px;
+  border-color: black;
+}
+
+.nav-button1:hover{
+  color: white;
+  background-color: #349bff;
+}
+
+.nav-button1:focus,
+.nav-button1:active {
+	outline: none;
+}
+
+.nav-button2:hover{
+  color: white;
+  background-color: #349bff;
+}
+
+.nav-button2:focus,
+.nav-button2:active {
+	outline: none;
+}
+
+.submit-button:hover {
+	color: white;
+	background-color: #349bff;
+}
+
+.submit-button:focus,
+.submit-button:active {
+	outline: none;
+}
+
+
+.footer {
+	margin-top: 90px;
+	flex: none;
+}
+
+.icon-auth {
+	text-align: center;
+	font-size: 10px;
+	color: #BEBEBE;
+}
+
+.icon-auth > a {
+	color: #858585;
+	text-decoration: none;
+}
